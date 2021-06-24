@@ -35,7 +35,7 @@ main1.addEventListener("click",function()
     setTimeout(function()
     {
         actbtn.classList.remove("animation");
-    },70);
+    },50);
 
 })
 
@@ -47,7 +47,7 @@ red.addEventListener("click", (event)=>{
     if(x==y){
         console.log(score)
         score++;
-        if(score%2===0 && score>0)
+        if(score%4===0 && score>0)
         {
          level=level+1;
          heading.innerHTML="level"+ " " + level;
@@ -77,7 +77,7 @@ yellow.addEventListener("click", (event)=>{
     console.log(x)
     if(x==y){
         score++;
-        if(score%2===0 && score>0)
+        if(score%4===0 && score>0)
         {
          level=level+1;
          heading.innerHTML="level"+ " " + level;
@@ -103,7 +103,7 @@ blue.addEventListener("click", (event)=>{
     console.log(x)
     if(x==y){
         score++;
-        if(score%2===0 && score>0)
+        if(score%4===0 && score>0)
         {
          level=level+1;
          heading.innerHTML="level"+ " " + level;
@@ -130,7 +130,7 @@ green.addEventListener("click", (event)=>{
     console.log(x)
     if(x==y){
         score++;
-        if(score%2===0 && score>0)
+        if(score%4===0 && score>0)
         {
          level=level+1;
          heading.innerHTML="level"+ " " + level;
