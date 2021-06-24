@@ -16,12 +16,13 @@ var reset=document.querySelector(".btn");
 strt.addEventListener("click" ,(event)=>{
     
     heading.innerHTML="welcome";
+      strt.style.display="none";
 
 });
 
 main1.addEventListener("click",function()
 {
-   strt.style.display="none";
+ 
     var rndom=Math.floor(Math.random()*4)+1;
   
     var actbtn=main[rndom-1];
@@ -34,7 +35,7 @@ main1.addEventListener("click",function()
     setTimeout(function()
     {
         actbtn.classList.remove("animation");
-    },20);
+    },70);
 
 })
 
