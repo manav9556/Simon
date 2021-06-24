@@ -1,0 +1,110 @@
+body{
+  background-color: #423A47;
+
+ 
+}
+h1
+{
+    text-align: center;
+    color: #BF9251;
+   
+    font-family: 'DotGothic16', sans-serif;
+    font-style: inherit;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+#main-div
+{
+    margin-left: 35%;
+    margin-top: 7%;
+  
+}
+#upper-div
+{
+   margin: 4px;
+}
+#inner-div
+{
+   margin: 4px;
+}
+#tgreen
+{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 4px;
+    border-radius: 7%;
+    border-style: inset;
+
+}
+#tyellow
+{
+    background-color:yellow;
+    width: 150px;
+    height: 150px;  
+    display: inline-block;
+    margin: 4px;
+    border-radius: 7%;
+    border-style: inset;
+}
+#tred
+{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 4px;
+    border-radius: 7%;
+    border-style: inset;
+}
+
+#tblue
+{
+    background-color:blue;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 4px;
+    border-radius: 7%;
+
+    border-style: inset;
+}
+#strt
+{
+    margin-left: 6%;
+    margin-top: 4px;
+   border-radius: 6px;
+    width: 15rem;
+     padding: .7rem;
+     font-weight: bolder;
+     font-size: 3rem;
+     font-family: 'DotGothic16', sans-serif;
+   background-color:#8E836D; 
+   
+}
+.btn
+{
+    margin-left: 39%;
+    margin-top: 4px;
+   border-radius: 6px;
+    width: 15rem;
+     padding: .7rem;
+     font-weight: bolder;
+     font-size: 3rem;
+     font-family: 'DotGothic16', sans-serif;
+
+   background-color:#8E836D; 
+   display: none;
+
+}
+
+.animation
+{
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.2;
+}
+.xhange
+{
+    background-color: red;
+}
